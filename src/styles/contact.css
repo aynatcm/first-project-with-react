@@ -1,0 +1,24 @@
+#Contacto form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: auto;
+}
+
+#Contacto input[type="submit"] {
+  width: 166px;
+  margin: auto;
+}
+
+.ContactoInfo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.ContactoInfo img {
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+}

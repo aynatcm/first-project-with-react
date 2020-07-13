@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+}
+
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 60px;
+  color: #ffffff;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+span {
+  color: #71bcfa;
+}
+
+textarea {
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.Contenedor {
+  max-width: 1280px;
+  width: 95%;
+  margin: auto;
+}
+
+.Contenedor-Titulo a,
+#Sobre-Nosotros a,
+#Blog a,
+#QueEsperas a,
+#Contacto input[type="submit"] {
+  font-size: 14px;
+  color: #ffffff;
+  background: #5cb8ff;
+  padding: 14px 24px;
+  width: 144px;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+}
+
+footer {
+  background: #2f2f2f;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#PorqueTrabajar,
+#Contacto {
+  padding: 55px 0;
+}
+
+#Sobre-Nosotros {
+  padding: 10px 0;
+}
+
+#NuestrosProductos {
+  padding: 8px 0;
+}
+
+#Servicio {
+  padding: 15px 0;
+}
+
+.Menu-Icon {
+  display: none;
+}

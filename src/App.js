@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import IconWsp from "./components/iconWsp";
+import Header from "./components/header";
+import AboutUs from "./components/aboutUs";
+import Service from "./components/service";
+import OurProducts from "./components/ourProducts";
+import WhyWork from "./components/whyWork";
+import Blog from "./components/blog";
+import Waiting from "./components/waiting";
+import Contact from "./components/contact";
+import Futer from "./components/futer";
+import ScriptJquery from "./components/scriptJquery";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <IconWsp />
+      <Header />
+      <AboutUs />
+      <Service />
+      <OurProducts />
+      <WhyWork />
+      <Blog />
+      <Waiting />
+      <Contact />
+      <Futer />
+      <ScriptJquery />
+    </>
   );
 }
 

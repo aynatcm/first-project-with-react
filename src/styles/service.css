@@ -1,0 +1,44 @@
+.Contenedor-Servicios {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.Servicio {
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.Servicio h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.Servicio p {
+  margin-bottom: 20px;
+  height: 194px;
+}
+
+.Contenedor-Servicios .Violeta {
+  background: linear-gradient(to top, #5055df, #6d68f3);
+  box-shadow: 0 12px 30px 0 rgba(80, 85, 223, 0.37);
+}
+
+.Contenedor-Servicios .Celeste {
+  background: linear-gradient(to top, #40a8f9, #5cb8ff);
+  box-shadow: 0 12px 30px 0 rgba(86, 163, 222, 0.3);
+}
+
+.Ondas {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.Icono {
+  float: right;
+}

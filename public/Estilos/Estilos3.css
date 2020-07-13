@@ -32,7 +32,7 @@ header {
       rgba(125, 225, 209, 0.3),
       rgba(181, 237, 228, 0.3)
     ),
-    url(Frijol.jpg);
+    url(../Imagenes/Frijol.jpg);
   height: 100vh;
   background-size: cover;
 }
@@ -151,11 +151,11 @@ h3 {
   float: right;
 }
 /* Nuestros productos */
-
 #NuestrosProductos {
   text-align: center;
   color: #000000;
 }
+
 
 button.owl-prev,
 button.owl-next {
@@ -165,8 +165,6 @@ button.owl-next {
 span {
   color: #71bcfa;
 }
-
-/* Seccion porque trabajar */
 
 .ContenedorTrabajar {
   display: flex;
@@ -236,7 +234,6 @@ span {
 }
 
 /* Seccion que esperas */
-
 #QueEsperas {
   background: linear-gradient(rgba(84, 93, 220, 0.94), rgba(96, 171, 245, 0.9));
   text-align: center;
@@ -295,8 +292,6 @@ textarea {
   margin-right: 10px;
 }
 
-/* Seccion footer */
-
 footer {
   background: #2f2f2f;
   padding: 40px 0;
@@ -325,7 +320,6 @@ footer p {
   color: #ffffff;
   margin-top: 40px;
 }
-/* Icono wsp */
 
 #Whatsapp {
   position: fixed;
@@ -348,7 +342,6 @@ footer p {
 html {
   scroll-behavior: smooth;
 }
-/* Secciones globales */
 
 #PorqueTrabajar,
 #Contacto {

@@ -1,0 +1,9 @@
+#Sobre-Nosotros .Contenedor-SobreNosotros {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Sobre-Nosotros .Texto {
+  line-height: 30px;
+  width: 42%;
+}

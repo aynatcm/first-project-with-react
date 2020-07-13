@@ -1,0 +1,25 @@
+.ContenedorTrabajar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#PorqueTrabajar .Item {
+  width: 28%;
+  text-align: center;
+}
+
+#PorqueTrabajar ul li {
+  list-style: none;
+}
+
+#PorqueTrabajar ul li:nth-child(2) {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#PorqueTrabajar ul li:nth-child(3) {
+  line-height: 31px;
+}

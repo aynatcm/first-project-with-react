@@ -1,0 +1,38 @@
+#Blog {
+  background: #f9fafc;
+}
+
+#Blog .ContenedorPubli {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Blog .Publicacion {
+  width: 30%;
+  box-shadow: 1px 1px 14px #cccccc;
+}
+
+#Blog img {
+  width: 100%;
+}
+
+#Blog .ContenidoPubli {
+  background: #ffffff;
+  padding: 20px;
+}
+
+#Blog h4 {
+  font-size: 23px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#Blog p {
+  color: #373964;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+#Blog a {
+  width: 87px;
+}

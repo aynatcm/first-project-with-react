@@ -1,0 +1,131 @@
+@media (max-width: 800px) {
+  .Contenedor-Titulo {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .Menu-Icon {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+  }
+
+  header nav {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 268px;
+    background: #5cb8ff;
+    width: 100%;
+    display: none;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header nav ul li {
+    margin-bottom: 28px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  #Sobre-Nosotros .Contenedor-SobreNosotros {
+    flex-direction: column;
+    width: 100%;
+  }
+  #Sobre-Nosotros img {
+    width: 100%;
+  }
+
+  #Sobre-Nosotros .Texto {
+    width: 100%;
+  }
+
+  .Contenedor-Servicios {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Servicio {
+    width: 82%;
+    padding: 34px 30px 69px 30px;
+  }
+
+  .Icono {
+    margin-top: 23px;
+  }
+
+  h3 {
+    font-size: 43px;
+  }
+
+  .ContenedorTrabajar {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #PorqueTrabajar .Item {
+    width: 100%;
+  }
+
+  .Item ul {
+    padding: 0;
+  }
+
+  #Blog .ContenedorPubli {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #Blog .Publicacion {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  #Contacto form {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+  }
+
+  footer img {
+    margin: 0 26px;
+  }
+}
+
+@media (min-width: 290px) and (max-width: 1500px) {
+  header {
+    height: 70vh;
+    width: 100%;
+  }
+
+  #Contenedor-Flex {
+    width: 100%;
+  }
+
+  .Servicio {
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+  #Blog .Publicacion {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}
