@@ -8,7 +8,7 @@ import WhyWork from "./components/whyWork";
 import Blog from "./components/blog";
 import Waiting from "./components/waiting";
 import Contact from "./components/contact";
-import Futer from "./components/futer";
+import AppFooter from "./components/AppFooter";
 import ScriptJquery from "./components/scriptJquery";
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Blog />
       <Waiting />
       <Contact />
-      <Futer />
+      <AppFooter />
       <ScriptJquery />
     </>
   );

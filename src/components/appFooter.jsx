@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/futer.css";
 
-const Futer = () => (
+const AppFooter = () => (
   <footer>
     <div className="Contenedor">
       <div className="RedesSociales">
@@ -13,7 +13,7 @@ const Futer = () => (
           <img src="Imagenes/Facebook.png" alt="Imagen de facebook" />
         </a>
         <a
-          href="https://www.instagram.com/aynatcortez/?hl=es-la"
+          href="https://www.instagram.com/aynat_cm/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,4 +37,4 @@ const Futer = () => (
   </footer>
 );
 
-export default Futer;
+export default AppFooter;
