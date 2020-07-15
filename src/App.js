@@ -8,7 +8,7 @@ import WhyWork from "./components/whyWork";
 import Blog from "./components/blog";
 import Waiting from "./components/waiting";
 import Contact from "./components/contact";
-import AppFooter from "./components/AppFooter";
+import AppFooter from "./components/appFooter";
 import ScriptJquery from "./components/scriptJquery";
 function App() {
   return (
