@@ -13,14 +13,14 @@ const AppFooter = () => (
           <img src="Imagenes/Facebook.png" alt="Imagen de facebook" />
         </a>
         <a
-          href="https://www.instagram.com/aynat_cm/"
+          href="https://www.instagram.com/aynatcm/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src="Imagenes/instagram.png" alt="Imagen de instagram" />
         </a>
         <a
-          href="https://twitter.com/AynatCortez"
+          href="https://twitter.com/aynatcm"
           target="_blank"
           rel="noopener noreferrer"
         >
