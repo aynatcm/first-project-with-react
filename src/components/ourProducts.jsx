@@ -8,7 +8,7 @@ const OurProducts = () => (
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src="./Imagenes/Frijo1.jpeg"
           alt="First slide"
         />
@@ -16,7 +16,7 @@ const OurProducts = () => (
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src="./Imagenes/Frijo2.jpeg"
           alt="Third slide"
         />
@@ -24,7 +24,7 @@ const OurProducts = () => (
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src="./Imagenes/Frijo3.jpeg"
           alt="Third slide"
         />
@@ -32,7 +32,7 @@ const OurProducts = () => (
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src="./Imagenes/Frijo4.jpeg"
           alt="First slide"
         />
@@ -40,7 +40,7 @@ const OurProducts = () => (
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src="./Imagenes/Frijo5.jpeg"
           alt="First slide"
         />
@@ -48,7 +48,7 @@ const OurProducts = () => (
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block"
           src="./Imagenes/Frijo6.jpeg"
           alt="First slide"
         />

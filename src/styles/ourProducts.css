@@ -3,11 +3,6 @@
   color: #000000;
 }
 
-#NuestrosProductos img {
-  width: 960px;
-  height: 960px;
-}
-
 .carousel-control-next-icon {
   background-color: rgba(76, 76, 76, 1) !important;
 }
@@ -18,4 +13,19 @@
 
 #NuestrosProductos h3 {
   margin-bottom: 15px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  height: 580px;
+}
+
+#NuestrosProductos img {
+width: 65%;
+height: 575px;
+margin: auto;
+border-radius: 6px;
 }
